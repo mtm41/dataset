@@ -1,0 +1,4022 @@
+{
+    "info": {
+        "added": 1628522566.193408, 
+        "started": 1628547156.75405, 
+        "duration": 252, 
+        "ended": 1628547409.65174, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 2350615, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x644", 
+            "label": "Ubuntu1904x644", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-08-09 22:13:17", 
+            "shutdown_on": "2021-08-09 22:16:49"
+        }, 
+        "platform": "windows", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "8373427436b3da0f86c1b99da6a78934b9689239", 
+            "name": "VirusShare_20748a4ec320648c78f7baa3ba15a656", 
+            "type": "ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /system/bin/linker, stripped", 
+            "sha256": "788d0648f126867149a70d3ee82ea7606da9fecc12497d31eec53709bacaf3b4", 
+            "urls": [], 
+            "crc32": "B5B8AA1A", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/788d0648f126867149a70d3ee82ea7606da9fecc12497d31eec53709bacaf3b4", 
+            "ssdeep": "192:ZNPSDeCVB7uvrKZ+UQAoDGV+YSytuDQG6S:/PLgSvmZ+TcV+ZS6KS", 
+            "size": 13828, 
+            "sha512": "7a8b086040cd5aadc54b228d2fd54413eb4d75e6abfcb55c9ddcab10d8f289529055b5bb8b09b0c0830dee0c7d1601deda1e3676ccce2256396fd35e8cf6aa58", 
+            "md5": "20748a4ec320648c78f7baa3ba15a656"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 0, 
+        "probes_finished": 16, 
+        "scan_id": "3a7f2af7-c45c-4c1f-b6da-974ff1972da3", 
+        "parent_file_sha256": null, 
+        "name": "788d0648f126867149a70d3ee82ea7606da9fecc12497d31eec53709bacaf3b4", 
+        "scan_date": 1628543830, 
+        "other_results": [], 
+        "submitter": "cli", 
+        "probes_total": 16, 
+        "file_infos": {
+            "mimetype": "ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV)", 
+            "sha1": "8373427436b3da0f86c1b99da6a78934b9689239", 
+            "tags": [], 
+            "timestamp_first_scan": 1628543829.86, 
+            "timestamp_last_scan": 1628543840.7, 
+            "sha256": "788d0648f126867149a70d3ee82ea7606da9fecc12497d31eec53709bacaf3b4", 
+            "md5": "20748a4ec320648c78f7baa3ba15a656", 
+            "size": 13828
+        }, 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-07-22_04"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18300.4", 
+                    "results": null, 
+                    "virus_database_version": "1.343.1173.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.08, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-05-05"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.87, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "6087dbf0-1e845 (2021-04-27)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.16, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.02, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 3.84, 
+                    "version": "8.3.62.226", 
+                    "results": null, 
+                    "virus_database_version": "8.18.36.236"
+                }, 
+                "Kaspersky (Windows)": {
+                    "status": 0, 
+                    "duration": 3.83, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-08-09 03:14:00 (full)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.0, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "9966"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 0, 
+                    "duration": 8.33, 
+                    "version": "5.74.0", 
+                    "results": null, 
+                    "virus_database_version": "5.83 (23 March 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.08, 
+                    "version": "11.1.9.2103151924", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26190"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.77, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.88854 (16/06/2021)"
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.22, 
+                    "version": "2021.1.0.10606", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Bitdefender Antivirus Scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.67, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }
+            }
+        }, 
+        "path": "", 
+        "result_id": "bdb2e385-b300-4862-96be-44359a081ae1", 
+        "file_sha256": "788d0648f126867149a70d3ee82ea7606da9fecc12497d31eec53709bacaf3b4"
+    }, 
+    "suricata": {
+        "tls": [], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "scans": {
+            "Bkav": {
+                "detected": false, 
+                "version": "1.3.0.9899", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Lionic": {
+                "detected": false, 
+                "version": "4.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "MicroWorld-eScan": {
+                "detected": false, 
+                "version": "14.0.409.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "ClamAV": {
+                "detected": false, 
+                "version": "0.103.1.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "CMC": {
+                "detected": false, 
+                "version": "2.10.2019.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "CAT-QuickHeal": {
+                "detected": false, 
+                "version": "14.00", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "McAfee": {
+                "detected": false, 
+                "version": "6.0.6.653", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Malwarebytes": {
+                "detected": false, 
+                "version": "4.2.1.18", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Zillya": {
+                "detected": false, 
+                "version": "2.0.0.4308", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Sangfor": {
+                "detected": false, 
+                "version": "2.9.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210306"
+            }, 
+            "K7AntiVirus": {
+                "detected": false, 
+                "version": "11.168.36645", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "K7GW": {
+                "detected": false, 
+                "version": "11.168.36645", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Arcabit": {
+                "detected": false, 
+                "version": "1.0.0.881", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Baidu": {
+                "detected": false, 
+                "version": "1.0.0.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20190318"
+            }, 
+            "Cyren": {
+                "detected": false, 
+                "version": "6.3.0.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Symantec": {
+                "detected": false, 
+                "version": "1.14.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "TotalDefense": {
+                "detected": false, 
+                "version": "37.1.62.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "TrendMicro-HouseCall": {
+                "detected": false, 
+                "version": "10.0.0.1040", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Avast": {
+                "detected": false, 
+                "version": "21.1.5827.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Cynet": {
+                "detected": false, 
+                "version": "4.0.0.25", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Kaspersky": {
+                "detected": false, 
+                "version": "15.0.1.13", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "BitDefender": {
+                "detected": false, 
+                "version": "7.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "NANO-Antivirus": {
+                "detected": false, 
+                "version": "1.0.146.25265", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "SUPERAntiSpyware": {
+                "detected": false, 
+                "version": "5.6.0.1032", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210305"
+            }, 
+            "Tencent": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Ad-Aware": {
+                "detected": false, 
+                "version": "3.0.16.117", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Sophos": {
+                "detected": false, 
+                "version": "1.0.2.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Comodo": {
+                "detected": false, 
+                "version": "33327", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "F-Secure": {
+                "detected": false, 
+                "version": "12.0.86.52", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "DrWeb": {
+                "detected": false, 
+                "version": "7.0.49.9080", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "VIPRE": {
+                "detected": false, 
+                "version": "90946", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "TrendMicro": {
+                "detected": false, 
+                "version": "11.0.0.1006", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "McAfee-GW-Edition": {
+                "detected": false, 
+                "version": "v2019.1.2+3728", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "FireEye": {
+                "detected": false, 
+                "version": "32.44.1.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Emsisoft": {
+                "detected": false, 
+                "version": "2018.12.0.1641", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Avast-Mobile": {
+                "detected": false, 
+                "version": "210308-00", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Jiangmin": {
+                "detected": false, 
+                "version": "16.0.100", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210305"
+            }, 
+            "Avira": {
+                "detected": false, 
+                "version": "8.3.3.12", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "MAX": {
+                "detected": false, 
+                "version": "2019.9.16.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Antiy-AVL": {
+                "detected": false, 
+                "version": "3.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Kingsoft": {
+                "detected": false, 
+                "version": "2017.9.26.565", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Gridinsoft": {
+                "detected": false, 
+                "version": "1.0.31.122", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Microsoft": {
+                "detected": false, 
+                "version": "1.1.17800.5", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "ViRobot": {
+                "detected": false, 
+                "version": "2014.3.20.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "ZoneAlarm": {
+                "detected": false, 
+                "version": "1.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "GData": {
+                "detected": false, 
+                "version": "A:25.28886B:27.22223", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "AhnLab-V3": {
+                "detected": false, 
+                "version": "3.19.5.10130", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Acronis": {
+                "detected": false, 
+                "version": "1.1.1.81", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210211"
+            }, 
+            "BitDefenderTheta": {
+                "detected": false, 
+                "version": "7.2.37796.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210304"
+            }, 
+            "ALYac": {
+                "detected": false, 
+                "version": "1.1.3.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "TACHYON": {
+                "detected": false, 
+                "version": "2021-03-08.02", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "VBA32": {
+                "detected": false, 
+                "version": "4.4.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210305"
+            }, 
+            "Zoner": {
+                "detected": false, 
+                "version": "0.0.0.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210307"
+            }, 
+            "ESET-NOD32": {
+                "detected": false, 
+                "version": "22931", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Rising": {
+                "detected": false, 
+                "version": "25.0.0.26", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Yandex": {
+                "detected": false, 
+                "version": "5.5.2.24", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210307"
+            }, 
+            "Ikarus": {
+                "detected": false, 
+                "version": "0.1.5.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "MaxSecure": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210306"
+            }, 
+            "Fortinet": {
+                "detected": false, 
+                "version": "6.2.142.0", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Panda": {
+                "detected": false, 
+                "version": "4.6.4.2", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }, 
+            "Qihoo-360": {
+                "detected": false, 
+                "version": "1.0.0.1120", 
+                "result": null, 
+                "normalized": [], 
+                "update": "20210308"
+            }
+        }, 
+        "scan_id": "788d0648f126867149a70d3ee82ea7606da9fecc12497d31eec53709bacaf3b4-1615243081", 
+        "sha1": "8373427436b3da0f86c1b99da6a78934b9689239", 
+        "resource": "20748a4ec320648c78f7baa3ba15a656", 
+        "response_code": 1, 
+        "scan_date": "2021-03-08 22:38:01", 
+        "permalink": "https://www.virustotal.com/gui/file/788d0648f126867149a70d3ee82ea7606da9fecc12497d31eec53709bacaf3b4/detection/f-788d0648f126867149a70d3ee82ea7606da9fecc12497d31eec53709bacaf3b4-1615243081", 
+        "summary": {
+            "positives": 0, 
+            "permalink": "https://www.virustotal.com/gui/file/788d0648f126867149a70d3ee82ea7606da9fecc12497d31eec53709bacaf3b4/detection/f-788d0648f126867149a70d3ee82ea7606da9fecc12497d31eec53709bacaf3b4-1615243081", 
+            "scan_date": "2021-03-08 22:38:01"
+        }, 
+        "sha256": "788d0648f126867149a70d3ee82ea7606da9fecc12497d31eec53709bacaf3b4", 
+        "normalized": [], 
+        "total": 61, 
+        "positives": 0, 
+        "verbose_msg": "Scan finished, information embedded", 
+        "md5": "20748a4ec320648c78f7baa3ba15a656"
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "VirusShare_20748a4ec320648c78f7baa3ba15a656", 
+                "pid": 3853, 
+                "summary": {}, 
+                "first_seen": 1628522573.69122, 
+                "ppid": -1
+            }, 
+            {
+                "process_path": null, 
+                "process_name": "VirusShare_2074", 
+                "pid": 3854, 
+                "summary": {}, 
+                "first_seen": 1628522573.827424, 
+                "ppid": 3853
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.691220 VirusShare_2074@7f42f5627c27[3853] execve(\"/tmp/VirusShare_20748a4ec320648c78f7baa3ba15a656\", [\"/tmp/VirusShare_20748a4ec320648c78f7baa3ba15a656\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/VirusShare_20748)\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5627c27", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "\"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/VirusShare_20748"
+                            ], 
+                            "p0": "/tmp/VirusShare_20748a4ec320648c78f7baa3ba15a656", 
+                            "p1": [
+                                "/tmp/VirusShare_20748a4ec320648c78f7baa3ba15a656"
+                            ]
+                        }, 
+                        "time": 1628522573.69122
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.810309 VirusShare_2074@7f42f5627c27[3853] brk(0x0) = 94556096430080\n", 
+                        "api": "brk", 
+                        "return_value": "94556096430080", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5627c27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1628522573.810309
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.810420 VirusShare_2074@7f42f56289d7[3853] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f56289d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1628522573.81042
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.811393 VirusShare_2074@7f42f5628b0d[3853] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1628522573.811393
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.811454 VirusShare_2074@7f42f5628943[3853] fstat(4, 0x7ffd67bc4c50) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4c50"
+                        }, 
+                        "time": 1628522573.811454
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.811503 VirusShare_2074@7f42f5628d03[3853] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f42f55f6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f55f6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.811503
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.811551 VirusShare_2074@7f42f56289f7[3853] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f56289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1628522573.811551
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.811616 VirusShare_2074@7f42f5628b0d[3853] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libz.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libz.so.1"
+                        }, 
+                        "time": 1628522573.811616
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.811668 VirusShare_2074@7f42f5628bd4[3853] read(4, 0x7ffd67bc4e08, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4e08"
+                        }, 
+                        "time": 1628522573.811668
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.811716 VirusShare_2074@7f42f5628943[3853] fstat(4, 0x7ffd67bc4ca0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4ca0"
+                        }, 
+                        "time": 1628522573.811716
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.811756 VirusShare_2074@7f42f5628d03[3853] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f42f55f4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f55f4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.811756
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.811806 VirusShare_2074@7f42f5628d03[3853] mmap2(0x0, 110768, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f42f55d8000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f55d8000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "110768", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.811806
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.811855 VirusShare_2074@7f42f5628db7[3853] mprotect(0x7f42f55da000, 98304, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f42f55da000", 
+                            "p1": "98304"
+                        }, 
+                        "time": 1628522573.811855
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.811913 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f55da000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f42f55da000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f55da000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f55da000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1628522573.811913
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.811964 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f55eb000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 77824) = 0x7f42f55eb000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f55eb000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f55eb000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "77824"
+                        }, 
+                        "time": 1628522573.811964
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812010 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f55f2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 102400) = 0x7f42f55f2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f55f2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f55f2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "102400"
+                        }, 
+                        "time": 1628522573.81201
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812071 VirusShare_2074@7f42f56289f7[3853] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f56289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1628522573.812071
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812124 VirusShare_2074@7f42f5628b0d[3853] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0"
+                        }, 
+                        "time": 1628522573.812124
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812173 VirusShare_2074@7f42f5628bd4[3853] read(4, 0x7ffd67bc4de8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4de8"
+                        }, 
+                        "time": 1628522573.812173
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812213 VirusShare_2074@7f42f5628943[3853] fstat(4, 0x7ffd67bc4c80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4c80"
+                        }, 
+                        "time": 1628522573.812213
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812253 VirusShare_2074@7f42f5628d03[3853] mmap2(0x0, 20600, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f42f55d2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f55d2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20600", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.812253
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812300 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f55d3000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f42f55d3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f55d3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f55d3000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1628522573.8123
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812353 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f55d5000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f42f55d5000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f55d5000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f55d5000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1628522573.812353
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812401 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f55d6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f42f55d6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f55d6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f55d6000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1628522573.812401
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812457 VirusShare_2074@7f42f56289f7[3853] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f56289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1628522573.812457
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812506 VirusShare_2074@7f42f5628b0d[3853] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0"
+                        }, 
+                        "time": 1628522573.812506
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812553 VirusShare_2074@7f42f5628bd4[3853] read(4, 0x7ffd67bc4dc8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4dc8"
+                        }, 
+                        "time": 1628522573.812553
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812593 VirusShare_2074@7f42f5628943[3853] fstat(4, 0x7ffd67bc4c60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4c60"
+                        }, 
+                        "time": 1628522573.812593
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812633 VirusShare_2074@7f42f5628d03[3853] mmap2(0x0, 1180072, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f42f54b1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f54b1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1180072", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.812633
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812678 VirusShare_2074@7f42f5628db7[3853] mprotect(0x7f42f54cc000, 1060864, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f42f54cc000", 
+                            "p1": "1060864"
+                        }, 
+                        "time": 1628522573.812678
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812732 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f54cc000, 524288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 110592) = 0x7f42f54cc000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f54cc000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f54cc000", 
+                            "p1": "524288", 
+                            "p4": "4", 
+                            "p5": "110592"
+                        }, 
+                        "time": 1628522573.812732
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812782 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f554c000, 532480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 634880) = 0x7f42f554c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f554c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f554c000", 
+                            "p1": "532480", 
+                            "p4": "4", 
+                            "p5": "634880"
+                        }, 
+                        "time": 1628522573.812782
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812828 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f55cf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1167360) = 0x7f42f55cf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f55cf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f55cf000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1167360"
+                        }, 
+                        "time": 1628522573.812828
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812889 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f55d1000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f42f55d1000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f55d1000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f42f55d1000", 
+                            "p1": "424", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.812889
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812941 VirusShare_2074@7f42f56289f7[3853] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f56289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1628522573.812941
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.812996 VirusShare_2074@7f42f5628b0d[3853] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/librt.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/librt.so.1"
+                        }, 
+                        "time": 1628522573.812996
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813042 VirusShare_2074@7f42f5628bd4[3853] read(4, 0x7ffd67bc4da8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4da8"
+                        }, 
+                        "time": 1628522573.813042
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813084 VirusShare_2074@7f42f5628943[3853] fstat(4, 0x7ffd67bc4c40) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4c40"
+                        }, 
+                        "time": 1628522573.813084
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813127 VirusShare_2074@7f42f5628d03[3853] mmap2(0x0, 44000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f42f54a6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f54a6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "44000", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.813127
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813174 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f54a9000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f42f54a9000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f54a9000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f54a9000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1628522573.813174
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813226 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f54ad000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f42f54ad000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f54ad000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f54ad000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1628522573.813226
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813275 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f54af000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 32768) = 0x7f42f54af000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f54af000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f54af000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "32768"
+                        }, 
+                        "time": 1628522573.813275
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813332 VirusShare_2074@7f42f56289f7[3853] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f56289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1628522573.813332
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813386 VirusShare_2074@7f42f5628b0d[3853] openat(AT_FDCWD, \"/usr/lib/x86_64-linux-gnu/libstdc++.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6"
+                        }, 
+                        "time": 1628522573.813386
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813432 VirusShare_2074@7f42f5628bd4[3853] read(4, 0x7ffd67bc4d88, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4d88"
+                        }, 
+                        "time": 1628522573.813432
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813472 VirusShare_2074@7f42f5628943[3853] fstat(4, 0x7ffd67bc4c20) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4c20"
+                        }, 
+                        "time": 1628522573.813472
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813511 VirusShare_2074@7f42f5628d03[3853] mmap2(0x0, 1971648, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f42f52c4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f52c4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1971648", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.813511
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813555 VirusShare_2074@7f42f5628db7[3853] mprotect(0x7f42f5359000, 1294336, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628db7", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f42f5359000", 
+                            "p1": "1294336"
+                        }, 
+                        "time": 1628522573.813555
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813602 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f5359000, 991232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 610304) = 0x7f42f5359000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f5359000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f5359000", 
+                            "p1": "991232", 
+                            "p4": "4", 
+                            "p5": "610304"
+                        }, 
+                        "time": 1628522573.813602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813757 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f544b000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1601536) = 0x7f42f544b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f544b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f544b000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1601536"
+                        }, 
+                        "time": 1628522573.813757
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813825 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f5495000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1900544) = 0x7f42f5495000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f5495000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f5495000", 
+                            "p1": "57344", 
+                            "p4": "4", 
+                            "p5": "1900544"
+                        }, 
+                        "time": 1628522573.813825
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813881 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f54a3000, 9664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f42f54a3000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f54a3000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f42f54a3000", 
+                            "p1": "9664", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.813881
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.813973 VirusShare_2074@7f42f56289f7[3853] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f56289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1628522573.813973
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814036 VirusShare_2074@7f42f5628b0d[3853] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libm.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libm.so.6"
+                        }, 
+                        "time": 1628522573.814036
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814082 VirusShare_2074@7f42f5628bd4[3853] read(4, 0x7ffd67bc4d68, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4d68"
+                        }, 
+                        "time": 1628522573.814082
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814124 VirusShare_2074@7f42f5628943[3853] fstat(4, 0x7ffd67bc4c00) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4c00"
+                        }, 
+                        "time": 1628522573.814124
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814163 VirusShare_2074@7f42f5628d03[3853] mmap2(0x0, 1364240, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f42f5176000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f5176000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "1364240", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.814163
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814210 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f5185000, 679936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 61440) = 0x7f42f5185000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f5185000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f5185000", 
+                            "p1": "679936", 
+                            "p4": "4", 
+                            "p5": "61440"
+                        }, 
+                        "time": 1628522573.81421
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814261 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f522b000, 618496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 741376) = 0x7f42f522b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f522b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f522b000", 
+                            "p1": "618496", 
+                            "p4": "4", 
+                            "p5": "741376"
+                        }, 
+                        "time": 1628522573.814261
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814308 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f52c2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1355776) = 0x7f42f52c2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f52c2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f52c2000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "1355776"
+                        }, 
+                        "time": 1628522573.814308
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814366 VirusShare_2074@7f42f56289f7[3853] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f56289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1628522573.814366
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814420 VirusShare_2074@7f42f5628b0d[3853] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libgcc_s.so.1\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libgcc_s.so.1"
+                        }, 
+                        "time": 1628522573.81442
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814465 VirusShare_2074@7f42f5628bd4[3853] read(4, 0x7ffd67bc4d48, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4d48"
+                        }, 
+                        "time": 1628522573.814465
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814506 VirusShare_2074@7f42f5628943[3853] fstat(4, 0x7ffd67bc4be0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4be0"
+                        }, 
+                        "time": 1628522573.814506
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814546 VirusShare_2074@7f42f5628d03[3853] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f42f5174000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f5174000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.814546
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814594 VirusShare_2074@7f42f5628d03[3853] mmap2(0x0, 103504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f42f515a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f515a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "103504", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.814594
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814638 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f515d000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f42f515d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f515d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f515d000", 
+                            "p1": "69632", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1628522573.814638
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814689 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f516e000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 81920) = 0x7f42f516e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f516e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f516e000", 
+                            "p1": "16384", 
+                            "p4": "4", 
+                            "p5": "81920"
+                        }, 
+                        "time": 1628522573.814689
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814742 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f5172000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 94208) = 0x7f42f5172000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f5172000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f5172000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "94208"
+                        }, 
+                        "time": 1628522573.814742
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814798 VirusShare_2074@7f42f56289f7[3853] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f56289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1628522573.814798
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814852 VirusShare_2074@7f42f5628b0d[3853] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpthread.so.0\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpthread.so.0"
+                        }, 
+                        "time": 1628522573.814852
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814897 VirusShare_2074@7f42f5628bd4[3853] read(4, 0x7ffd67bc4d28, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4d28"
+                        }, 
+                        "time": 1628522573.814897
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814937 VirusShare_2074@7f42f5628943[3853] fstat(4, 0x7ffd67bc4bc0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4bc0"
+                        }, 
+                        "time": 1628522573.814937
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.814977 VirusShare_2074@7f42f5628d03[3853] mmap2(0x0, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f42f5139000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f5139000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "132288", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.814977
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815023 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f5140000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 28672) = 0x7f42f5140000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f5140000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f5140000", 
+                            "p1": "61440", 
+                            "p4": "4", 
+                            "p5": "28672"
+                        }, 
+                        "time": 1628522573.815023
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815074 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f514f000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 90112) = 0x7f42f514f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f514f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f514f000", 
+                            "p1": "20480", 
+                            "p4": "4", 
+                            "p5": "90112"
+                        }, 
+                        "time": 1628522573.815074
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815123 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f5154000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 106496) = 0x7f42f5154000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f5154000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f5154000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "106496"
+                        }, 
+                        "time": 1628522573.815123
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815177 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f5156000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f42f5156000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f5156000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f42f5156000", 
+                            "p1": "13504", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.815177
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815227 VirusShare_2074@7f42f56289f7[3853] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f56289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1628522573.815227
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815279 VirusShare_2074@7f42f5628b0d[3853] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1628522573.815279
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815324 VirusShare_2074@7f42f5628bd4[3853] read(4, 0x7ffd67bc4d08, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4d08"
+                        }, 
+                        "time": 1628522573.815324
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815365 VirusShare_2074@7f42f5628943[3853] fstat(4, 0x7ffd67bc4ba0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4ba0"
+                        }, 
+                        "time": 1628522573.815365
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815406 VirusShare_2074@7f42f5628d03[3853] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f42f4f4e000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f4f4e000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.815406
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815451 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f4f73000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 151552) = 0x7f42f4f73000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f4f73000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f4f73000", 
+                            "p1": "1519616", 
+                            "p4": "4", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1628522573.815451
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815504 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f50e6000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1671168) = 0x7f42f50e6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f50e6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f50e6000", 
+                            "p1": "299008", 
+                            "p4": "4", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1628522573.815504
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815553 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f512f000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 1966080) = 0x7f42f512f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f512f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f512f000", 
+                            "p1": "24576", 
+                            "p4": "4", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1628522573.815553
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815607 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f5135000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f42f5135000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f5135000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f42f5135000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.815607
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815660 VirusShare_2074@7f42f56289f7[3853] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f56289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1628522573.81566
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815724 VirusShare_2074@7f42f5628b0d[3853] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libdl.so.2\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libdl.so.2"
+                        }, 
+                        "time": 1628522573.815724
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815769 VirusShare_2074@7f42f5628bd4[3853] read(4, 0x7ffd67bc4ce8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4ce8"
+                        }, 
+                        "time": 1628522573.815769
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815811 VirusShare_2074@7f42f5628943[3853] fstat(4, 0x7ffd67bc4b80) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4b80"
+                        }, 
+                        "time": 1628522573.815811
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815854 VirusShare_2074@7f42f5628d03[3853] mmap2(0x0, 20752, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f42f4f48000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f4f48000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "20752", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.815854
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815900 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f4f49000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 4096) = 0x7f42f4f49000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f4f49000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f4f49000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "4096"
+                        }, 
+                        "time": 1628522573.8159
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.815951 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f4f4b000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f42f4f4b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f4f4b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f4f4b000", 
+                            "p1": "4096", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1628522573.815951
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.816000 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f4f4c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 12288) = 0x7f42f4f4c000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f4f4c000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f4f4c000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1628522573.816
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.816055 VirusShare_2074@7f42f56289f7[3853] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f56289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1628522573.816055
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.816109 VirusShare_2074@7f42f5628b0d[3853] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libpcre.so.3\", O_RDONLY|O_CLOEXEC) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628b0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libpcre.so.3"
+                        }, 
+                        "time": 1628522573.816109
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.816155 VirusShare_2074@7f42f5628bd4[3853] read(4, 0x7ffd67bc4cc8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628bd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4cc8"
+                        }, 
+                        "time": 1628522573.816155
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.816196 VirusShare_2074@7f42f5628943[3853] fstat(4, 0x7ffd67bc4b60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628943", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4b60"
+                        }, 
+                        "time": 1628522573.816196
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.816235 VirusShare_2074@7f42f5628d03[3853] mmap2(0x0, 471304, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f42f4ed4000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f4ed4000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "471304", 
+                            "p4": "4", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.816235
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.816282 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f4ed6000, 335872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 8192) = 0x7f42f4ed6000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f4ed6000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f4ed6000", 
+                            "p1": "335872", 
+                            "p4": "4", 
+                            "p5": "8192"
+                        }, 
+                        "time": 1628522573.816282
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.816334 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f4f28000, 122880, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 344064) = 0x7f42f4f28000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f4f28000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f4f28000", 
+                            "p1": "122880", 
+                            "p4": "4", 
+                            "p5": "344064"
+                        }, 
+                        "time": 1628522573.816334
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.816381 VirusShare_2074@7f42f5628d03[3853] mmap2(0x7f42f4f46000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 462848) = 0x7f42f4f46000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f4f46000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f42f4f46000", 
+                            "p1": "8192", 
+                            "p4": "4", 
+                            "p5": "462848"
+                        }, 
+                        "time": 1628522573.816381
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.816441 VirusShare_2074@7f42f56289f7[3853] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f56289f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1628522573.816441
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.817390 VirusShare_2074@7f42f5628d03[3853] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f42f4ed2000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f4ed2000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.81739
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.817476 VirusShare_2074@7f42f5628d03[3853] mmap2(0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f42f4ecf000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f4ecf000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "12288", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.817476
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.817528 VirusShare_2074@7f42f560df30[3853] arch_prctl(ARCH_SET_FS, 139925553739712) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f560df30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "139925553739712"
+                        }, 
+                        "time": 1628522573.817528
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.818193 VirusShare_2074@7f42f5628db7[3853] mprotect(0x7f42f512f000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f42f512f000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1628522573.818193
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.818258 VirusShare_2074@7f42f5628db7[3853] mprotect(0x7f42f5154000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f42f5154000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1628522573.818258
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.818337 VirusShare_2074@7f42f5628db7[3853] mprotect(0x7f42f4f46000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f42f4f46000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1628522573.818337
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.818390 VirusShare_2074@7f42f5628db7[3853] mprotect(0x7f42f4f4c000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f42f4f4c000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1628522573.81839
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.818437 VirusShare_2074@7f42f5628db7[3853] mprotect(0x7f42f5172000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f42f5172000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1628522573.818437
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.818507 VirusShare_2074@7f42f5628db7[3853] mprotect(0x7f42f52c2000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f42f52c2000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1628522573.818507
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.819578 VirusShare_2074@7f42f5628db7[3853] mprotect(0x7f42f5495000, 45056, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f42f5495000", 
+                            "p1": "45056"
+                        }, 
+                        "time": 1628522573.819578
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.819635 VirusShare_2074@7f42f5628db7[3853] mprotect(0x7f42f54af000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f42f54af000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1628522573.819635
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.819880 VirusShare_2074@7f42f5628db7[3853] mprotect(0x7f42f55cf000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f42f55cf000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1628522573.81988
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.819950 VirusShare_2074@7f42f5628db7[3853] mprotect(0x7f42f55d6000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f42f55d6000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1628522573.81995
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.819997 VirusShare_2074@7f42f5628db7[3853] mprotect(0x7f42f55f2000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f42f55f2000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1628522573.819997
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.823885 VirusShare_2074@7f42f5628db7[3853] mprotect(0x55ff8b163000, 282624, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55ff8b163000", 
+                            "p1": "282624"
+                        }, 
+                        "time": 1628522573.823885
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.823946 VirusShare_2074@7f42f5628db7[3853] mprotect(0x7f42f5636000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628db7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f42f5636000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1628522573.823946
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.823995 VirusShare_2074@7f42f5628d97[3853] munmap(0x7f42f55f6000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5628d97", 
+                        "arguments": {
+                            "p0": "0x7f42f55f6000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1628522573.823995
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.824065 VirusShare_2074@7f42f51408df[3853] set_tid_address(0x7f42f4ecfa90) = 3853\n", 
+                        "api": "set_tid_address", 
+                        "return_value": "3853", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f51408df", 
+                        "arguments": {
+                            "p0": "0x7f42f4ecfa90"
+                        }, 
+                        "time": 1628522573.824065
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.824105 VirusShare_2074@7f42f514094a[3853] set_robust_list(0x7f42f4ecfaa0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f514094a", 
+                        "arguments": {
+                            "p0": "0x7f42f4ecfaa0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1628522573.824105
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.824232 VirusShare_2074@7f42f514d010[3853] rt_sigaction(0x20, {0x7f42f51406c0, SA_SIGINFO|SA_RESTORER, 0x7f42f514cf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f514d010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x20", 
+                            "p1": [
+                                "0x7f42f51406c0", 
+                                "SA_SIGINFO|SA_RESTORER", 
+                                "0x7f42f514cf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1628522573.824232
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.824274 VirusShare_2074@7f42f514d010[3853] rt_sigaction(0x21, {0x7f42f5140760, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f42f514cf40, [EMPTY]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f514d010", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "0x21", 
+                            "p1": [
+                                "0x7f42f5140760", 
+                                "SA_RESTART|SA_SIGINFO|SA_RESTORER", 
+                                "0x7f42f514cf40", 
+                                [
+                                    "EMPTY]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1628522573.824274
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.824316 VirusShare_2074@7f42f5140a19[3853] rt_sigprocmask(SIG_UNBLOCK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5140a19", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_UNBLOCK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1628522573.824316
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.824367 VirusShare_2074@7f42f5060df0[3853] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd67bc59e0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5060df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd67bc59e0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1628522573.824367
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.824555 VirusShare_2074@7f42f50612f7[3853] brk(0x0) = 94556096430080\n", 
+                        "api": "brk", 
+                        "return_value": "94556096430080", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50612f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1628522573.824555
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.824593 VirusShare_2074@7f42f50612f7[3853] brk(0x55ff8e8c1000) = 94556096565248\n", 
+                        "api": "brk", 
+                        "return_value": "94556096565248", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50612f7", 
+                        "arguments": {
+                            "p0": "0x55ff8e8c1000"
+                        }, 
+                        "time": 1628522573.824593
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.826138 VirusShare_2074@7f42f5149b86[3853] rt_sigprocmask(SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffd67bc5930, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5149b86", 
+                        "arguments": {
+                            "p2": "0x7ffd67bc5930", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS"
+                            ]
+                        }, 
+                        "time": 1628522573.826138
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.827046 VirusShare_2074@7f42f50654c3[3853] mmap2(0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f42f46ce000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f46ce000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50654c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK", 
+                            "p0": "0x0", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.827046
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.827095 VirusShare_2074@7f42f5065597[3853] mprotect(0x7f42f46cf000, 8388608, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5065597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f42f46cf000", 
+                            "p1": "8388608"
+                        }, 
+                        "time": 1628522573.827095
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.827167 VirusShare_2074@7f42f506bb11[3853] clone(CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f42f4ecdf30, 0x7f42f4ece9d0, 0x7f42f4ece9d0) = 3854\n", 
+                        "api": "clone", 
+                        "return_value": "3854", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f506bb11", 
+                        "arguments": {
+                            "p2": "0x7f42f4ece9d0", 
+                            "p3": "0x7f42f4ece9d0", 
+                            "p0": "CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID", 
+                            "p1": "0x7f42f4ecdf30"
+                        }, 
+                        "time": 1628522573.827167
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.827286 VirusShare_2074@7f42f5149b86[3853] rt_sigprocmask(SIG_SETMASK, [EMPTY], 0x0, 8) = 0\n", 
+                        "api": "rt_sigprocmask", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5149b86", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIG_SETMASK", 
+                            "p1": [
+                                "EMPTY"
+                            ]
+                        }, 
+                        "time": 1628522573.827286
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.830152 VirusShare_2074@7f42f5060df0[3853] prlimit64(0, RLIMIT_STACK, NULL, 0x7ffd67bc54f0) = 0\n", 
+                        "api": "prlimit64", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5060df0", 
+                        "arguments": {
+                            "p2": "NULL", 
+                            "p3": "0x7ffd67bc54f0", 
+                            "p0": "0", 
+                            "p1": "RLIMIT_STACK"
+                        }, 
+                        "time": 1628522573.830152
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.830223 VirusShare_2074@7f42f50605c1[3853] openat(AT_FDCWD, \"/etc/qemu-binfmt/arm\", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50605c1", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/qemu-binfmt/arm"
+                        }, 
+                        "time": 1628522573.830223
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.831040 VirusShare_2074@7f42f502f247[3853] uname(0x7ffd67bc5160) = 0\n", 
+                        "api": "uname", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f502f247", 
+                        "arguments": {
+                            "p0": "0x7ffd67bc5160"
+                        }, 
+                        "time": 1628522573.83104
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.831092 VirusShare_2074@7f42f514c337[3853] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f514c337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1628522573.831092
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.831134 VirusShare_2074@7f42f514bd94[3853] read(3, 0x7ffd67bc5450, 52) = 52\n", 
+                        "api": "read", 
+                        "return_value": "52", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f514bd94", 
+                        "arguments": {
+                            "p2": "52", 
+                            "p0": "3", 
+                            "p1": "0x7ffd67bc5450"
+                        }, 
+                        "time": 1628522573.831134
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.831187 VirusShare_2074@7f42f514c337[3853] lseek(3, 0, SEEK_SET) = 0\n", 
+                        "api": "lseek", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f514c337", 
+                        "arguments": {
+                            "p2": "SEEK_SET", 
+                            "p0": "3", 
+                            "p1": "0"
+                        }, 
+                        "time": 1628522573.831187
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.832029 VirusShare_2074@7f42f50612f7[3853] brk(0x55ff8e8e2000) = 94556096700416\n", 
+                        "api": "brk", 
+                        "return_value": "94556096700416", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50612f7", 
+                        "arguments": {
+                            "p0": "0x55ff8e8e2000"
+                        }, 
+                        "time": 1628522573.832029
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.832242 VirusShare_2074@7f42f50654c3[3853] mmap2(0x0, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f42f464d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42f464d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50654c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "528384", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.832242
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.832721 VirusShare_2074@7f42f5065597[3853] mprotect(0x55ff8b1bb000, 33550336, PROT_READ|PROT_WRITE|PROT_EXEC) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5065597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE|PROT_EXEC", 
+                            "p0": "0x55ff8b1bb000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1628522573.832721
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.832774 VirusShare_2074@7f42f5065667[3853] madvise(0x55ff8b1bb000, 33550336, MADV_HUGEPAGE) = 0\n", 
+                        "api": "madvise", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5065667", 
+                        "arguments": {
+                            "p2": "MADV_HUGEPAGE", 
+                            "p0": "0x55ff8b1bb000", 
+                            "p1": "33550336"
+                        }, 
+                        "time": 1628522573.832774
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.833856 VirusShare_2074@7f42f50612f7[3853] brk(0x55ff8e903000) = 94556096835584\n", 
+                        "api": "brk", 
+                        "return_value": "94556096835584", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50612f7", 
+                        "arguments": {
+                            "p0": "0x55ff8e903000"
+                        }, 
+                        "time": 1628522573.833856
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.834437 VirusShare_2074@7f42f50612f7[3853] brk(0x55ff8e924000) = 94556096970752\n", 
+                        "api": "brk", 
+                        "return_value": "94556096970752", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50612f7", 
+                        "arguments": {
+                            "p0": "0x55ff8e924000"
+                        }, 
+                        "time": 1628522573.834437
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.834912 VirusShare_2074@7f42f50612f7[3853] brk(0x55ff8e945000) = 94556097105920\n", 
+                        "api": "brk", 
+                        "return_value": "94556097105920", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50612f7", 
+                        "arguments": {
+                            "p0": "0x55ff8e945000"
+                        }, 
+                        "time": 1628522573.834912
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.835240 VirusShare_2074@7f42f50612f7[3853] brk(0x55ff8e96c000) = 94556097265664\n", 
+                        "api": "brk", 
+                        "return_value": "94556097265664", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50612f7", 
+                        "arguments": {
+                            "p0": "0x55ff8e96c000"
+                        }, 
+                        "time": 1628522573.83524
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.836151 VirusShare_2074@7f42f50612f7[3853] brk(0x55ff8e98d000) = 94556097400832\n", 
+                        "api": "brk", 
+                        "return_value": "94556097400832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50612f7", 
+                        "arguments": {
+                            "p0": "0x55ff8e98d000"
+                        }, 
+                        "time": 1628522573.836151
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.837368 VirusShare_2074@7f42f50654c3[3853] mmap2(0x0, 4294905856, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f41f000f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f41f000f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50654c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "4294905856", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.837368
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.837414 VirusShare_2074@7f42f5065567[3853] munmap(0x7f41f000f000, 4294905856) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5065567", 
+                        "arguments": {
+                            "p0": "0x7f41f000f000", 
+                            "p1": "4294905856"
+                        }, 
+                        "time": 1628522573.837414
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.837467 VirusShare_2074@7f42f50654c3[3853] mmap2(0x7f41f000f000, 4294901760, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f41f000f000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f41f000f000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50654c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x7f41f000f000", 
+                            "p1": "4294901760", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.837467
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.837509 VirusShare_2074@7f42f50654c3[3853] mmap2(0x7f42effff000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f42effff000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42effff000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50654c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x7f42effff000", 
+                            "p1": "4096", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.837509
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.837602 VirusShare_2074@7f42f5065597[3853] mprotect(0x7f42effff000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5065597", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f42effff000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1628522573.837602
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.837658 VirusShare_2074@7f42f505ad59[3853] openat(AT_FDCWD, \"/proc/sys/vm/mmap_min_addr\", O_RDONLY) = 4\n", 
+                        "api": "openat", 
+                        "return_value": "4", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f505ad59", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/proc/sys/vm/mmap_min_addr"
+                        }, 
+                        "time": 1628522573.837658
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.837730 VirusShare_2074@7f42f505a613[3853] fstat(4, 0x7ffd67bc4b60) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f505a613", 
+                        "arguments": {
+                            "p0": "4", 
+                            "p1": "0x7ffd67bc4b60"
+                        }, 
+                        "time": 1628522573.83773
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.837775 VirusShare_2074@7f42f505afb4[3853] read(4, 0x55ff8e8d82a0, 1024) = 6\n", 
+                        "api": "read", 
+                        "return_value": "6", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f505afb4", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "4", 
+                            "p1": "0x55ff8e8d82a0"
+                        }, 
+                        "time": 1628522573.837775
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.837967 VirusShare_2074@7f42f50603f7[3853] close(4) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50603f7", 
+                        "arguments": {
+                            "p0": "4"
+                        }, 
+                        "time": 1628522573.837967
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838055 VirusShare_2074@7f42f5079dc9[3853] futex(0x7f42f5132c40, FUTEX_WAKE_PRIVATE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5079dc9", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f42f5132c40", 
+                            "p1": "FUTEX_WAKE_PRIVATE"
+                        }, 
+                        "time": 1628522573.838055
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838189 VirusShare_2074@7f42f50652e9[3853] gettid() = 3853\n", 
+                        "api": "gettid", 
+                        "return_value": "3853", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50652e9", 
+                        "arguments": {}, 
+                        "time": 1628522573.838189
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838248 VirusShare_2074@7f42f505a613[3853] fstat(3, 0x7ffd67bc53d0) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f505a613", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7ffd67bc53d0"
+                        }, 
+                        "time": 1628522573.838248
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838320 VirusShare_2074@7f42f5030717[3853] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5030717", 
+                        "arguments": {}, 
+                        "time": 1628522573.83832
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838363 VirusShare_2074@7f42f5030737[3853] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5030737", 
+                        "arguments": {}, 
+                        "time": 1628522573.838363
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838401 VirusShare_2074@7f42f514bd94[3853] read(3, 0x7ffd67bc55d0, 1024) = 1024\n", 
+                        "api": "read", 
+                        "return_value": "1024", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f514bd94", 
+                        "arguments": {
+                            "p2": "1024", 
+                            "p0": "3", 
+                            "p1": "0x7ffd67bc55d0"
+                        }, 
+                        "time": 1628522573.838401
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838447 VirusShare_2074@7f42f50654c3[3853] mmap2(0x7f41f0017000, 12288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f41f0017000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f41f0017000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50654c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f41f0017000", 
+                            "p1": "12288", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.838447
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838499 VirusShare_2074@7f42f50612f7[3853] brk(0x55ff8e9ae000) = 94556097536000\n", 
+                        "api": "brk", 
+                        "return_value": "94556097536000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50612f7", 
+                        "arguments": {
+                            "p0": "0x55ff8e9ae000"
+                        }, 
+                        "time": 1628522573.838499
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838561 VirusShare_2074@7f42f50654c3[3853] mmap2(0x7f41f001a000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 12288) = 0x7f41f001a000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f41f001a000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50654c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED", 
+                            "p0": "0x7f41f001a000", 
+                            "p1": "4096", 
+                            "p4": "3", 
+                            "p5": "12288"
+                        }, 
+                        "time": 1628522573.838561
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838617 VirusShare_2074@7f42f514be27[3853] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f514be27", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1628522573.838617
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838702 VirusShare_2074@7f42f50654c3[3853] mmap2(0x7f42ef7fe000, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f42ef7fe000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42ef7fe000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50654c3", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f42ef7fe000", 
+                            "p1": "8392704", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.838702
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838841 VirusShare_2074@7f42f5065597[3853] mprotect(0x7f42ef7fe000, 4096, PROT_NONE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5065597", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p0": "0x7f42ef7fe000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1628522573.838841
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838901 VirusShare_2074@7f42f514c55e[3853] openat(AT_FDCWD, \"/system/bin/linker\", O_RDONLY) = -2 (ENOENT)\n", 
+                        "api": "openat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f514c55e", 
+                        "arguments": {
+                            "p2": "O_RDONLY", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/system/bin/linker"
+                        }, 
+                        "time": 1628522573.838901
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838975 VirusShare_2074@7f42f505b057[3853] write(2, \"/system/bin/linker: No such file or directory\\n\", 46) = 46\n", 
+                        "api": "write", 
+                        "return_value": "46", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f505b057", 
+                        "arguments": {
+                            "p2": "46", 
+                            "p0": "2", 
+                            "p1": "/system/bin/linker: No such file or directory\n"
+                        }, 
+                        "time": 1628522573.838975
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.839084 VirusShare_2074@7f42f502f926[3853] exit_group(-1)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f502f926", 
+                        "arguments": {
+                            "p0": "-1"
+                        }, 
+                        "time": 1628522573.839084
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3853, 
+                        "raw": "Mon Aug  9 15:22:53 2021.839132 VirusShare_2074@7f42f502f926[3853] futex(0x7f42f4ecfa90, FUTEX_WAKE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f502f926", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f42f4ecfa90", 
+                            "p1": "FUTEX_WAKE"
+                        }, 
+                        "time": 1628522573.839132
+                    }
+                ], 
+                "pid": 3853, 
+                "process_name": "VirusShare_20748a4ec320648c78f7baa3ba15a656", 
+                "command_line": "/tmp/VirusShare_20748a4ec320648c78f7baa3ba15a656", 
+                "first_seen": 1628522573.69122, 
+                "ppid": -1, 
+                "type": "process"
+            }, 
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3854, 
+                        "raw": "Mon Aug  9 15:22:53 2021.827424 VirusShare_2074@7f42f5142117[3854] set_robust_list(0x7f42f4ece9e0, 24) = 0\n", 
+                        "api": "set_robust_list", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5142117", 
+                        "arguments": {
+                            "p0": "0x7f42f4ece9e0", 
+                            "p1": "24"
+                        }, 
+                        "time": 1628522573.827424
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3854, 
+                        "raw": "Mon Aug  9 15:22:53 2021.827500 VirusShare_2074@7f42f50654c3[3854] mmap2(0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f42ec6ce000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f42ec6ce000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50654c3", 
+                        "arguments": {
+                            "p2": "PROT_NONE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE", 
+                            "p0": "0x0", 
+                            "p1": "134217728", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1628522573.8275
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3854, 
+                        "raw": "Mon Aug  9 15:22:53 2021.827563 VirusShare_2074@7f42f5065567[3854] munmap(0x7f42ec6ce000, 59973632) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5065567", 
+                        "arguments": {
+                            "p0": "0x7f42ec6ce000", 
+                            "p1": "59973632"
+                        }, 
+                        "time": 1628522573.827563
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3854, 
+                        "raw": "Mon Aug  9 15:22:53 2021.827627 VirusShare_2074@7f42f5065567[3854] munmap(0x7f42f4000000, 7135232) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5065567", 
+                        "arguments": {
+                            "p0": "0x7f42f4000000", 
+                            "p1": "7135232"
+                        }, 
+                        "time": 1628522573.827627
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3854, 
+                        "raw": "Mon Aug  9 15:22:53 2021.827675 VirusShare_2074@7f42f5065597[3854] mprotect(0x7f42f0000000, 135168, PROT_READ|PROT_WRITE) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5065597", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p0": "0x7f42f0000000", 
+                            "p1": "135168"
+                        }, 
+                        "time": 1628522573.827675
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3854, 
+                        "raw": "Mon Aug  9 15:22:53 2021.827753 VirusShare_2074@7f42f514c440[3854] nanosleep([0.010000000], 0x7f42f4ecdd80) = 0\n", 
+                        "api": "nanosleep", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f514c440", 
+                        "arguments": {
+                            "p0": [
+                                "0.010000000"
+                            ], 
+                            "p1": "0x7f42f4ecdd80"
+                        }, 
+                        "time": 1628522573.827753
+                    }, 
+                    {
+                        "status": "EAGAIN", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3854, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838067 VirusShare_2074@7f42f5079d9c[3854] futex(0x7f42f5132c40, FUTEX_WAIT_PRIVATE, 2) = -11 (EAGAIN)\n", 
+                        "api": "futex", 
+                        "return_value": "-11", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5079d9c", 
+                        "arguments": {
+                            "p2": "2", 
+                            "p0": "0x7f42f5132c40", 
+                            "p1": "FUTEX_WAIT_PRIVATE"
+                        }, 
+                        "time": 1628522573.838067
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3854, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838158 VirusShare_2074@7f42f5079dc9[3854] futex(0x7f42f5132c40, FUTEX_WAKE_PRIVATE, 1) = 0\n", 
+                        "api": "futex", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f5079dc9", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "0x7f42f5132c40", 
+                            "p1": "FUTEX_WAKE_PRIVATE"
+                        }, 
+                        "time": 1628522573.838158
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "VirusShare_2074", 
+                        "pid": 3854, 
+                        "raw": "Mon Aug  9 15:22:53 2021.838281 VirusShare_2074@7f42f50652e9[3854] futex(0x55ff8d1cd7e8, FUTEX_WAIT, -1, NULL) = -512\n", 
+                        "api": "futex", 
+                        "return_value": "-512", 
+                        "category": "process", 
+                        "instruction_pointer": "7f42f50652e9", 
+                        "arguments": {
+                            "p2": "-1", 
+                            "p3": "NULL", 
+                            "p0": "0x55ff8d1cd7e8", 
+                            "p1": "FUTEX_WAIT"
+                        }, 
+                        "time": 1628522573.838281
+                    }
+                ], 
+                "pid": 3854, 
+                "process_name": "VirusShare_2074", 
+                "command_line": "", 
+                "first_seen": 1628522573.827424, 
+                "ppid": 3853, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 3853, 
+                "process_name": "VirusShare_20748a4ec320648c78f7baa3ba15a656", 
+                "command_line": "/tmp/VirusShare_20748a4ec320648c78f7baa3ba15a656", 
+                "first_seen": 1628522573.69122, 
+                "ppid": -1, 
+                "children": [
+                    {
+                        "track": true, 
+                        "pid": 3854, 
+                        "process_name": "VirusShare_2074", 
+                        "command_line": "", 
+                        "first_seen": 1628522573.827424, 
+                        "ppid": 3853, 
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-08-09 15:22:46,011 [root] DEBUG: Starting analyzer from: /tmp/tmprzxTit\n", 
+            "2021-08-09 15:22:46,011 [root] DEBUG: Storing results at: /tmp/KnNzWwjchC\n", 
+            "2021-08-09 15:22:48,022 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-08-09 15:22:48,024 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-08-09 15:22:48,026 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-08-09 15:22:53,683 [lib.core.packages] INFO: Process startup took 5.65 seconds\n", 
+            "2021-08-09 15:22:53,684 [root] INFO: Added new process to list with pid: 3846\n", 
+            "2021-08-09 15:23:02,697 [root] INFO: Process with pid 3846 has terminated\n", 
+            "2021-08-09 15:23:02,698 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-08-09 15:23:05,702 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-08-09 15:23:05,704 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-08-09 22:13:17,207 [cuckoo.core.scheduler] INFO: Task #2350615: acquired machine Ubuntu1904x644 (label=Ubuntu1904x644)\n", 
+            "2021-08-09 22:13:17,207 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.104 for task #2350615\n", 
+            "2021-08-09 22:13:17,258 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 111365 (interface=vboxnet0, host=192.168.168.104)\n", 
+            "2021-08-09 22:13:17,362 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x644\n", 
+            "2021-08-09 22:13:17,613 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x644 to Snapshot\n", 
+            "2021-08-09 22:13:28,043 [cuckoo.core.guest] INFO: Starting analysis #2350615 on guest (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2021-08-09 22:13:29,049 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: not ready yet\n", 
+            "2021-08-09 22:13:34,152 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x644, ip=192.168.168.104)\n", 
+            "2021-08-09 22:13:34,171 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x644, ip=192.168.168.104, monitor=latest, size=72017)\n", 
+            "2021-08-09 22:13:35,399 [cuckoo.core.resultserver] DEBUG: Task #2350615: live log analysis.log initialized.\n", 
+            "2021-08-09 22:13:45,378 [cuckoo.core.resultserver] DEBUG: Task #2350615: File upload for 'shots/0001.jpg'\n", 
+            "2021-08-09 22:13:45,388 [cuckoo.core.resultserver] DEBUG: Task #2350615 uploaded file length: 171492\n", 
+            "2021-08-09 22:13:49,309 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2350615 still processing\n", 
+            "2021-08-09 22:13:55,109 [cuckoo.core.resultserver] DEBUG: Task #2350615: File upload for 'logs/all.stap'\n", 
+            "2021-08-09 22:13:55,111 [cuckoo.core.resultserver] DEBUG: Task #2350615 uploaded file length: 24540\n", 
+            "2021-08-09 22:14:04,363 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2350615 still processing\n", 
+            "2021-08-09 22:14:19,422 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2350615 still processing\n", 
+            "2021-08-09 22:14:34,468 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2350615 still processing\n", 
+            "2021-08-09 22:14:49,524 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2350615 still processing\n", 
+            "2021-08-09 22:15:04,584 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2350615 still processing\n", 
+            "2021-08-09 22:15:19,645 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2350615 still processing\n", 
+            "2021-08-09 22:15:34,696 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2350615 still processing\n", 
+            "2021-08-09 22:15:49,788 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2350615 still processing\n", 
+            "2021-08-09 22:16:04,855 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2350615 still processing\n", 
+            "2021-08-09 22:16:19,912 [cuckoo.core.guest] DEBUG: Ubuntu1904x644: analysis #2350615 still processing\n", 
+            "2021-08-09 22:16:34,963 [cuckoo.core.guest] INFO: Ubuntu1904x644: end of analysis reached!\n", 
+            "2021-08-09 22:16:34,972 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-08-09 22:16:35,028 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-08-09 22:16:45,728 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x644 to path /srv/cuckoo/cwd/storage/analyses/2350615/memory.dmp\n", 
+            "2021-08-09 22:16:45,729 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x644\n", 
+            "2021-08-09 22:16:49,299 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.104 for task #2350615\n", 
+            "2021-08-09 22:16:49,299 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2350615\n", 
+            "2021-08-09 22:16:49,460 [cuckoo.core.scheduler] DEBUG: Released database task #2350615\n", 
+            "2021-08-09 22:16:49,539 [cuckoo.core.scheduler] INFO: Task #2350615: analysis procedure completed\n"
+        ]
+    }, 
+    "strings": [
+        "/system/bin/linker", 
+        "__dso_handle", 
+        "__INIT_ARRAY__", 
+        "__FINI_ARRAY__", 
+        "__aeabi_unwind_cpp_pr0", 
+        "__errno", 
+        "__stack_chk_fail", 
+        "__stack_chk_guard", 
+        "__aeabi_unwind_cpp_pr1", 
+        "__android_log_print", 
+        "snprintf", 
+        "malloc", 
+        "memcpy", 
+        "strerror", 
+        "__exidx_start", 
+        "__exidx_end", 
+        "__data_start", 
+        "_edata", 
+        "__bss_start", 
+        "__bss_start__", 
+        "_bss_end__", 
+        "__bss_end__", 
+        "__end__", 
+        "_stack", 
+        "realloc", 
+        "memset", 
+        "listen", 
+        "accept", 
+        "strlcpy", 
+        "memcmp", 
+        "__libc_init", 
+        "epoll_create", 
+        "epoll_ctl", 
+        "epoll_wait", 
+        "getenv", 
+        "vfprintf", 
+        "strtol", 
+        "strstr", 
+        "liblog.so", 
+        "libcutils.so", 
+        "libc.so", 
+        "libstdc++.so", 
+        "libm.so", 
+        "F0F)F\"F", 
+        "@hX` iO", 
+        "F0F)F\"F", 
+        "za3FzD", 
+        "yDzD,3", 
+        " !I\"J{DyDH3zD", 
+        " 1F;FzD", 
+        " !F``(i", 
+        "yDzDp3", 
+        "yDzDp3", 
+        "! h*FkF", 
+        "8F1FjF", 
+        "\"O\"N#J", 
+        "7~DzD1F;F", 
+        "##sc`(h", 
+        "J1F;FzD", 
+        ".K.I/J{DyD", 
+        " 1F*FSF", 
+        "J#F(h1FzD", 
+        "J1F(h#FzD", 
+        "(a3hn`+`5`+h", 
+        "5K6I6J{DyD", 
+        " h)K*I*J{D", 
+        "'J)F'K(HzD", 
+        "BICJCKyDzD{D", 
+        "9I9J:KyDzD{D", 
+        "00I0J|DyD", 
+        " }DzD)F", 
+        "looper_enable", 
+        "looper_del", 
+        "0123456789abcdefmultiplexer_open_channel", 
+        "client_fd_receive", 
+        "client_registration", 
+        "multiplexer_handle_control", 
+        "multiplexer_serial_receive", 
+        "fd_setnonblock", 
+        "fdhandler_accept_event", 
+        "looper_loop", 
+        "looper_disable", 
+        "fdhandler_event", 
+        "ANDROID_SOCKET_", 
+        "multiplexer_init", 
+        "%s: invalid fd: %d", 
+        "PANIC: ", 
+        "not enough memory", 
+        "malformed", 
+        "ignoring %s packet from serial port", 
+        "ignoring %d bytes addressed to channel %d", 
+        "disconnect:%02x", 
+        "connect:%.*s:%02x", 
+        "%s: weird, service name too long (%d > %d)", 
+        "%s: bad client sending data before end of registration", 
+        "%s: attempting registration for service '%.*s'", 
+        "%s: service name too long", 
+        "%s:    -> received channel id %d", 
+        "%s: registration failed for client %d", 
+        "%s: registration succeeded for client %d", 
+        "ok:connect:", 
+        "ko:connect:", 
+        "disconnect:", 
+        "%s: unknown control message (%d bytes): '%.*s'", 
+        "%s: NULL client: '%.*s'", 
+        "%s: discarding packet for unknown channel %d", 
+        "%s: could not get flags for fd %d: %s", 
+        "%s: could not set fd %d to non-blocking: %s", 
+        "unexpected serial port close !!", 
+        "unexpected multiplexer control close", 
+        "unexpected close of serial reader", 
+        "%s: accepting on fd %d", 
+        "%s: accept failed ?: %s", 
+        "%s: closing accept fd %d", 
+        "%s: error: %s", 
+        "%s: huh ? epoll returned count=0", 
+        "created client %p listening on fd %d", 
+        "%s: can't recv: %s", 
+        "%s: disconnect on fd %d", 
+        "%s: can't send: %s", 
+        "/dev/ttyS", 
+        "couldn't get fd for control socket '%s'", 
+        "%s: could not open '%s': %s", 
+        "/proc/cmdline", 
+        "%s: can't open /proc/cmdline !!: %s", 
+        "%s: can't read /proc/cmdline: %s", 
+        "android.qemud=", 
+        "%s: can't find '%s' in /proc/cmdline", 
+        "/dev/%.*s", 
+        "entering main loop", 
+        "unexpected termination !!", 
+        "gold 1.9A1", 
+        "ARM v7", 
+        ".rodata", 
+        ".shstrtab", 
+        ".ARM.extab", 
+        ".dynamic", 
+        ".dynsym", 
+        ".note.gnu.gold-version", 
+        ".rel.dyn", 
+        ".interp", 
+        ".dynstr", 
+        ".ARM.attributes", 
+        ".ctors", 
+        ".rel.plt", 
+        ".ARM.exidx", 
+        ".fini_array", 
+        ".init_array", 
+        ".preinit_array"
+    ], 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "704e5e5b3234433c01fcfd1b20a306e77e985038120492dc53965c3edd38a4ea", 
+                "dirname": ""
+            }
+        }
+    }
+}
