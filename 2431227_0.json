@@ -1,0 +1,1184 @@
+{
+    "info": {
+        "added": 1634308499.299599, 
+        "started": 1634308502.139946, 
+        "duration": 213, 
+        "ended": 1634308715.886267, 
+        "owner": null, 
+        "score": 2.9, 
+        "id": 2431227, 
+        "category": "file", 
+        "git": {
+            "head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54", 
+            "fetch_head": "0e0d906265199c4f8a2a88928e5f6121c2e5ab54"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "elf", 
+        "route": "internet", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "Ubuntu1904x641", 
+            "label": "Ubuntu1904x641", 
+            "platform": "linux", 
+            "manager": "VirtualBox", 
+            "started_on": "2021-10-15 14:35:02", 
+            "shutdown_on": "2021-10-15 14:38:35"
+        }, 
+        "platform": "windows", 
+        "version": "2.0.7", 
+        "options": "procmemdump=yes,route=internet"
+    }, 
+    "signatures": [
+        {
+            "families": [], 
+            "description": "File has been identified by at least one AntiVirus engine on IRMA as malicious", 
+            "severity": 20, 
+            "ttp": {}, 
+            "markcount": 1, 
+            "references": [], 
+            "marks": [
+                {
+                    "category": "Sophos Anti-Virus (Linux)", 
+                    "ioc": "Linux/Veil-W", 
+                    "type": "ioc", 
+                    "description": null
+                }
+            ], 
+            "name": "antivirus_irma"
+        }
+    ], 
+    "target": {
+        "category": "file", 
+        "file": {
+            "mimetype": "application/x-executable", 
+            "yara": [], 
+            "sha1": "0c69b043adf02c5f149585b07664c587e584930b", 
+            "name": "BASYUK_Illia.bin", 
+            "type": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, no section header", 
+            "sha256": "a5b9dc9363d99170f0ee8fd33f646c00f0cf171c3444f9c748eab36b3cf401f1", 
+            "urls": [], 
+            "crc32": "C45B9E2D", 
+            "path": "/srv/cuckoo/cwd/storage/binaries/a5b9dc9363d99170f0ee8fd33f646c00f0cf171c3444f9c748eab36b3cf401f1", 
+            "ssdeep": "6:BnX//In8/r1C1Q//U6iLecqp7xxY9r22QSQzWsg:BvwncrIWXUJLenna9r2iQzWf", 
+            "size": 255, 
+            "sha512": "f6b2a6f45dad6523c688b503483d0ebb48005a3f15375233aff02b3666ed4543615a8082cf6310e8e09d1e598c11d9f47862e78ce9cf1b431f15bc35002826b3", 
+            "md5": "3b325b2d8d1be8ffc9bd7dc800dd750e"
+        }, 
+        "custom": null
+    }, 
+    "irma": {
+        "status": 1, 
+        "probes_finished": 16, 
+        "scan_id": "aa47875a-7034-491e-8f50-dc48cded26bf", 
+        "parent_file_sha256": null, 
+        "name": "a5b9dc9363d99170f0ee8fd33f646c00f0cf171c3444f9c748eab36b3cf401f1", 
+        "probes_total": 16, 
+        "scan_date": 1634297916, 
+        "other_results": [], 
+        "probe_results": {
+            "antivirus": {
+                "Avast Core Security (Linux)": {
+                    "status": 0, 
+                    "duration": 0.01, 
+                    "version": "3.0.3", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "F-Secure Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "11.10", 
+                    "results": null, 
+                    "virus_database_version": "2021-08-12_02"
+                }, 
+                "Windows Defender (Windows)": {
+                    "status": 0, 
+                    "duration": 0.05, 
+                    "version": "1.1.18600.4", 
+                    "results": null, 
+                    "virus_database_version": "1.351.301.0"
+                }, 
+                "Comodo Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 2.09, 
+                    "version": "1.1.268025.1", 
+                    "results": null, 
+                    "virus_database_version": "2021-08-12"
+                }, 
+                "Kaspersky Antivirus (Win)": {
+                    "status": 0, 
+                    "duration": 3.59, 
+                    "version": "21.3", 
+                    "results": null, 
+                    "virus_database_version": "2021-09-27 01:57:00 (full)"
+                }, 
+                "ESET NOD32 Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 3.89, 
+                    "version": "4.0.96", 
+                    "results": null, 
+                    "virus_database_version": "61149108-1e731 (2021-08-12)"
+                }, 
+                "GData (Windows)": {
+                    "status": 0, 
+                    "duration": 0.19, 
+                    "version": "5.5.20197.1358", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Forticlient (Linux)": {
+                    "status": 0, 
+                    "duration": 3.05, 
+                    "version": "unavailable", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "Avira (Windows)": {
+                    "status": 0, 
+                    "duration": 5.11, 
+                    "version": "8.3.64.34", 
+                    "results": null, 
+                    "virus_database_version": "8.18.43.196"
+                }, 
+                "eScan Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 4.65, 
+                    "version": "7.0.21", 
+                    "results": null, 
+                    "virus_database_version": "7.89440 (12/08/2021)"
+                }, 
+                "McAfee CLI scanner (Linux)": {
+                    "status": 0, 
+                    "duration": 5.19, 
+                    "version": "6.0.6.653", 
+                    "results": null, 
+                    "virus_database_version": "10073"
+                }, 
+                "Sophos Anti-Virus (Linux)": {
+                    "status": 1, 
+                    "duration": 7.49, 
+                    "version": "5.85.0", 
+                    "results": "Linux/Veil-W", 
+                    "virus_database_version": "5.86 (03 August 2021)"
+                }, 
+                "DrWeb Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 0.11, 
+                    "version": "11.1.9.2103151924", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }, 
+                "ClamAV (Linux)": {
+                    "status": 0, 
+                    "duration": 0.02, 
+                    "version": "0.103.2", 
+                    "results": null, 
+                    "virus_database_version": "26260"
+                }, 
+                "Bitdefender Antivirus (Linux)": {
+                    "status": 0, 
+                    "duration": 6.74, 
+                    "version": "7.90123", 
+                    "results": null, 
+                    "virus_database_version": null
+                }, 
+                "Emsisoft Commandline Scanner (Windows)": {
+                    "status": 0, 
+                    "duration": 0.25, 
+                    "version": "2021.9.0.11172", 
+                    "results": null, 
+                    "virus_database_version": "unavailable"
+                }
+            }
+        }, 
+        "file_infos": {
+            "mimetype": "ELF 64-bit LSB executable, x86-64, version 1 (SYSV)", 
+            "sha1": "0c69b043adf02c5f149585b07664c587e584930b", 
+            "tags": [], 
+            "timestamp_first_scan": 1634297916.44, 
+            "size": 255, 
+            "timestamp_last_scan": 1634297926.37, 
+            "sha256": "a5b9dc9363d99170f0ee8fd33f646c00f0cf171c3444f9c748eab36b3cf401f1", 
+            "md5": "3b325b2d8d1be8ffc9bd7dc800dd750e"
+        }, 
+        "submitter": "cli", 
+        "path": "", 
+        "result_id": "c3d58b79-5f4d-4b77-b94d-2ec60c4261df", 
+        "file_sha256": "a5b9dc9363d99170f0ee8fd33f646c00f0cf171c3444f9c748eab36b3cf401f1"
+    }, 
+    "suricata": {
+        "tls": [
+            {
+                "src_ip": "192.168.168.101", 
+                "version": "TLS 1.2", 
+                "src_port": 51438, 
+                "dst_port": 443, 
+                "timestamp": "2021-10-15T14:35:34.838777+0300", 
+                "dst_ip": "91.189.92.40", 
+                "fingerprint": "97:63:1b:60:eb:d1:fa:4f:a4:fc:fa:98:66:3d:ee:22:fb:78:ce:c1", 
+                "subject": "C=GB, L=London, O=Canonical Group Ltd, CN=api.snapcraft.io", 
+                "issuer": "C=US, O=DigiCert Inc, CN=DigiCert TLS RSA SHA256 2020 CA1"
+            }
+        ], 
+        "files": [], 
+        "alerts": [], 
+        "http": []
+    }, 
+    "virustotal": {
+        "summary": {
+            "error": "resource has not been scanned yet"
+        }
+    }, 
+    "network": {
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "geoinfo": {}, 
+        "mitm": [], 
+        "https_ex": [], 
+        "http_ex": [], 
+        "sorted_pcap_sha256": "73b08373ed2d14b0d1765a5bb3b4bd7ead240b82dc82b63504b0cb1bcd2f91cb", 
+        "icmp": [], 
+        "tls": [], 
+        "dead_hosts": [], 
+        "smtp_ex": [], 
+        "hosts": [], 
+        "pcap_sha256": "7548fe5f4cea84c4f9524d095e76a443b145f9be589d32ee18d5db35e3a2657e", 
+        "dns": [], 
+        "domains": [], 
+        "irc": []
+    }, 
+    "resubmit": {
+        "resubmit_ids": []
+    }, 
+    "snort": {
+        "alerts": []
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": null, 
+                "process_name": "BASYUK_Illia.bin", 
+                "pid": 2070, 
+                "summary": {}, 
+                "first_seen": 1634308506.564718, 
+                "ppid": -1
+            }
+        ], 
+        "processes": [
+            {
+                "calls": [
+                    {
+                        "status": "", 
+                        "process_name": "BASYUK_Illia.bi", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.564718 BASYUK_Illia.bi@4000fd[2070] execve(\"/tmp/BASYUK_Illia.bin\", [\"/tmp/BASYUK_Illia.bin\"], [\"SUDO_GID=0\", \"MAIL=/var/mail/root\", \"USER=root\", \"HOME=/root\", \"SUDO_UID=0\", \"LOGNAME=root\", \"SYSTEMTAP_MODULE=stap_\", \"TERM=unknown\", \"SYSTEMTAP_VERBOSE=2\", \"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin\", \"DISPLAY=:0\", \"LANG=en_US.UTF-8\", \"XAUTHORITY=/root/.Xauthority\", \"SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/BASYUK_Illia.bin\", \"SHELL=/bin/bash\", \"SUDO_USER=root\", \"PWD=/tmp/tmpq)\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "4000fd", 
+                        "arguments": {
+                            "p2": [
+                                "SUDO_GID=0", 
+                                "MAIL=/var/mail/root", 
+                                "USER=root", 
+                                "HOME=/root", 
+                                "SUDO_UID=0", 
+                                "LOGNAME=root", 
+                                "SYSTEMTAP_MODULE=stap_", 
+                                "TERM=unknown", 
+                                "SYSTEMTAP_VERBOSE=2", 
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin", 
+                                "DISPLAY=:0", 
+                                "LANG=en_US.UTF-8", 
+                                "XAUTHORITY=/root/.Xauthority", 
+                                "SUDO_COMMAND=/usr/bin/staprun -vv -o stap.log /root/.cuckoo/stap_.ko -c sh -c /tmp/BASYUK_Illia.bin", 
+                                "SHELL=/bin/bash", 
+                                "SUDO_USER=root", 
+                                "\"PWD=/tmp/tmpq"
+                            ], 
+                            "p0": "/tmp/BASYUK_Illia.bin", 
+                            "p1": [
+                                "/tmp/BASYUK_Illia.bin"
+                            ]
+                        }, 
+                        "time": 1634308506.564718
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.565060 sh@7f5663d8ec27[2070] execve(\"/bin/sh\", [\"/bin/sh\", \"-c\", \"kitty 68766f73747b306f774b57694c787d626f627261\"], [])\n", 
+                        "api": "execve", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8ec27", 
+                        "arguments": {
+                            "p2": [
+                                ""
+                            ], 
+                            "p0": "/bin/sh", 
+                            "p1": [
+                                "/bin/sh", 
+                                "-c", 
+                                "kitty 68766f73747b306f774b57694c787d626f627261"
+                            ]
+                        }, 
+                        "time": 1634308506.56506
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.565336 sh@7f5663d8ec27[2070] brk(0x0) = 94469383749632\n", 
+                        "api": "brk", 
+                        "return_value": "94469383749632", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8ec27", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1634308506.565336
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.565463 sh@7f5663d8f9d7[2070] access(\"/etc/ld.so.preload\", R_OK) = -2 (ENOENT)\n", 
+                        "api": "access", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8f9d7", 
+                        "arguments": {
+                            "p0": "/etc/ld.so.preload", 
+                            "p1": "R_OK"
+                        }, 
+                        "time": 1634308506.565463
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.565550 sh@7f5663d8fb0d[2070] openat(AT_FDCWD, \"/etc/ld.so.cache\", O_RDONLY|O_CLOEXEC) = 3\n", 
+                        "api": "openat", 
+                        "return_value": "3", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8fb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/etc/ld.so.cache"
+                        }, 
+                        "time": 1634308506.56555
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.565638 sh@7f5663d8f943[2070] fstat(3, 0x7fff77889320) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8f943", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7fff77889320"
+                        }, 
+                        "time": 1634308506.565638
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.565708 sh@7f5663d8fd03[2070] mmap2(0x0, 88858, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5663d5d000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5663d5d000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE", 
+                            "p0": "0x0", 
+                            "p1": "88858", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1634308506.565708
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.565793 sh@7f5663d8f9f7[2070] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8f9f7", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1634308506.565793
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.565881 sh@7f5663d8fb0d[2070] openat(AT_FDCWD, \"/lib/x86_64-linux-gnu/libc.so.6\", O_RDONLY|O_CLOEXEC) = 3\n", 
+                        "api": "openat", 
+                        "return_value": "3", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8fb0d", 
+                        "arguments": {
+                            "p2": "O_RDONLY|O_CLOEXEC", 
+                            "p0": "AT_FDCWD", 
+                            "p1": "/lib/x86_64-linux-gnu/libc.so.6"
+                        }, 
+                        "time": 1634308506.565881
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.565951 sh@7f5663d8fbd4[2070] read(3, 0x7fff778894d8, 832) = 832\n", 
+                        "api": "read", 
+                        "return_value": "832", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8fbd4", 
+                        "arguments": {
+                            "p2": "832", 
+                            "p0": "3", 
+                            "p1": "0x7fff778894d8"
+                        }, 
+                        "time": 1634308506.565951
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.566224 sh@7f5663d8f943[2070] fstat(3, 0x7fff77889370) = 0\n", 
+                        "api": "fstat", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8f943", 
+                        "arguments": {
+                            "p0": "3", 
+                            "p1": "0x7fff77889370"
+                        }, 
+                        "time": 1634308506.566224
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.566299 sh@7f5663d8fd03[2070] mmap2(0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5663d5b000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5663d5b000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_ANONYMOUS", 
+                            "p0": "0x0", 
+                            "p1": "8192", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1634308506.566299
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.566393 sh@7f5663d8fd03[2070] mmap2(0x0, 2008696, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5663b70000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5663b70000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_DENYWRITE", 
+                            "p0": "0x0", 
+                            "p1": "2008696", 
+                            "p4": "3", 
+                            "p5": "0"
+                        }, 
+                        "time": 1634308506.566393
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.566465 sh@7f5663d8fd03[2070] mmap2(0x7f5663b95000, 1519616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 151552) = 0x7f5663b95000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5663b95000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_EXEC", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5663b95000", 
+                            "p1": "1519616", 
+                            "p4": "3", 
+                            "p5": "151552"
+                        }, 
+                        "time": 1634308506.566465
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.566543 sh@7f5663d8fd03[2070] mmap2(0x7f5663d08000, 299008, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1671168) = 0x7f5663d08000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5663d08000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5663d08000", 
+                            "p1": "299008", 
+                            "p4": "3", 
+                            "p5": "1671168"
+                        }, 
+                        "time": 1634308506.566543
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.566614 sh@7f5663d8fd03[2070] mmap2(0x7f5663d51000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1966080) = 0x7f5663d51000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5663d51000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE", 
+                            "p0": "0x7f5663d51000", 
+                            "p1": "24576", 
+                            "p4": "3", 
+                            "p5": "1966080"
+                        }, 
+                        "time": 1634308506.566614
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.566698 sh@7f5663d8fd03[2070] mmap2(0x7f5663d57000, 13944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5663d57000\n", 
+                        "api": "mmap2", 
+                        "return_value": "0x7f5663d57000", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8fd03", 
+                        "arguments": {
+                            "p2": "PROT_READ|PROT_WRITE", 
+                            "p3": "MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS", 
+                            "p0": "0x7f5663d57000", 
+                            "p1": "13944", 
+                            "p4": "-1", 
+                            "p5": "0"
+                        }, 
+                        "time": 1634308506.566698
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.566792 sh@7f5663d8f9f7[2070] close(3) = 0\n", 
+                        "api": "close", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8f9f7", 
+                        "arguments": {
+                            "p0": "3"
+                        }, 
+                        "time": 1634308506.566792
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.566900 sh@7f5663d74f30[2070] arch_prctl(ARCH_SET_FS, 140009018869120) = 0\n", 
+                        "api": "arch_prctl", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d74f30", 
+                        "arguments": {
+                            "p0": "ARCH_SET_FS", 
+                            "p1": "140009018869120"
+                        }, 
+                        "time": 1634308506.5669
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.567056 sh@7f5663d8fdb7[2070] mprotect(0x7f5663d51000, 12288, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8fdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5663d51000", 
+                            "p1": "12288"
+                        }, 
+                        "time": 1634308506.567056
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.567196 sh@7f5663d8fdb7[2070] mprotect(0x55eb5d0a4000, 8192, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8fdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x55eb5d0a4000", 
+                            "p1": "8192"
+                        }, 
+                        "time": 1634308506.567196
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.567275 sh@7f5663d8fdb7[2070] mprotect(0x7f5663d9d000, 4096, PROT_READ) = 0\n", 
+                        "api": "mprotect", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8fdb7", 
+                        "arguments": {
+                            "p2": "PROT_READ", 
+                            "p0": "0x7f5663d9d000", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1634308506.567275
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.567343 sh@7f5663d8fd97[2070] munmap(0x7f5663d5d000, 88858) = 0\n", 
+                        "api": "munmap", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663d8fd97", 
+                        "arguments": {
+                            "p0": "0x7f5663d5d000", 
+                            "p1": "88858"
+                        }, 
+                        "time": 1634308506.567343
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.567532 sh@7f5663c52707[2070] getuid() = 0\n", 
+                        "api": "getuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c52707", 
+                        "arguments": {}, 
+                        "time": 1634308506.567532
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.567629 sh@7f5663c52727[2070] getgid() = 0\n", 
+                        "api": "getgid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c52727", 
+                        "arguments": {}, 
+                        "time": 1634308506.567629
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.567697 sh@7f5663c526e7[2070] getpid() = 2070\n", 
+                        "api": "getpid", 
+                        "return_value": "2070", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c526e7", 
+                        "arguments": {}, 
+                        "time": 1634308506.567697
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.567820 sh@7f5663bb4030[2070] rt_sigaction(SIGCHLD, {0x55eb5d09a380, SA_RESTORER, 0x7f5663bb3f60, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663bb4030", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIGCHLD", 
+                            "p1": [
+                                "0x55eb5d09a380", 
+                                "SA_RESTORER", 
+                                "0x7f5663bb3f60", 
+                                [
+                                    "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1634308506.56782
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.567904 sh@7f5663c52717[2070] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c52717", 
+                        "arguments": {}, 
+                        "time": 1634308506.567904
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.568001 sh@7f5663c526f7[2070] getppid() = 2063\n", 
+                        "api": "getppid", 
+                        "return_value": "2063", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c526f7", 
+                        "arguments": {}, 
+                        "time": 1634308506.568001
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.568199 sh@7f5663c832f7[2070] brk(0x0) = 94469383749632\n", 
+                        "api": "brk", 
+                        "return_value": "94469383749632", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c832f7", 
+                        "arguments": {
+                            "p0": "0x0"
+                        }, 
+                        "time": 1634308506.568199
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.568270 sh@7f5663c832f7[2070] brk(0x55eb5e119000) = 94469383884800\n", 
+                        "api": "brk", 
+                        "return_value": "94469383884800", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c832f7", 
+                        "arguments": {
+                            "p0": "0x55eb5e119000"
+                        }, 
+                        "time": 1634308506.56827
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.568372 sh@7f5663c7d942[2070] getcwd(0x55eb5e0f8290, 4096) = 15\n", 
+                        "api": "getcwd", 
+                        "return_value": "15", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c7d942", 
+                        "arguments": {
+                            "p0": "0x55eb5e0f8290", 
+                            "p1": "4096"
+                        }, 
+                        "time": 1634308506.568372
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.568462 sh@7f5663c52717[2070] geteuid() = 0\n", 
+                        "api": "geteuid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c52717", 
+                        "arguments": {}, 
+                        "time": 1634308506.568462
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.568524 sh@7f5663c52737[2070] getegid() = 0\n", 
+                        "api": "getegid", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c52737", 
+                        "arguments": {}, 
+                        "time": 1634308506.568524
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.568597 sh@7f5663bb4030[2070] rt_sigaction(SIGINT, {NULL}, 0x7fff77889e40, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663bb4030", 
+                        "arguments": {
+                            "p2": "0x7fff77889e40", 
+                            "p3": "8", 
+                            "p0": "SIGINT", 
+                            "p1": [
+                                "NULL"
+                            ]
+                        }, 
+                        "time": 1634308506.568597
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.568672 sh@7f5663bb4030[2070] rt_sigaction(SIGINT, {0x55eb5d09a380, SA_RESTORER, 0x7f5663bb3f60, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663bb4030", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIGINT", 
+                            "p1": [
+                                "0x55eb5d09a380", 
+                                "SA_RESTORER", 
+                                "0x7f5663bb3f60", 
+                                [
+                                    "SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]"
+                                ]
+                            ]
+                        }, 
+                        "time": 1634308506.568672
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.568740 sh@7f5663bb4030[2070] rt_sigaction(SIGQUIT, {NULL}, 0x7fff77889e40, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663bb4030", 
+                        "arguments": {
+                            "p2": "0x7fff77889e40", 
+                            "p3": "8", 
+                            "p0": "SIGQUIT", 
+                            "p1": [
+                                "NULL"
+                            ]
+                        }, 
+                        "time": 1634308506.56874
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.568797 sh@7f5663bb4030[2070] rt_sigaction(SIGQUIT, {SIG_DFL}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663bb4030", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIGQUIT", 
+                            "p1": [
+                                "SIG_DFL"
+                            ]
+                        }, 
+                        "time": 1634308506.568797
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.568852 sh@7f5663bb4030[2070] rt_sigaction(SIGTERM, {NULL}, 0x7fff77889e50, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663bb4030", 
+                        "arguments": {
+                            "p2": "0x7fff77889e50", 
+                            "p3": "8", 
+                            "p0": "SIGTERM", 
+                            "p1": [
+                                "NULL"
+                            ]
+                        }, 
+                        "time": 1634308506.568852
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.568909 sh@7f5663bb4030[2070] rt_sigaction(SIGTERM, {SIG_DFL}, 0x0, 8) = 0\n", 
+                        "api": "rt_sigaction", 
+                        "return_value": "0", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663bb4030", 
+                        "arguments": {
+                            "p2": "0x0", 
+                            "p3": "8", 
+                            "p0": "SIGTERM", 
+                            "p1": [
+                                "SIG_DFL"
+                            ]
+                        }, 
+                        "time": 1634308506.568909
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.568979 sh@7f5663c7c5c5[2070] stat(\"/usr/local/sbin/kitty\", 0x7fff77889dd0) = -2 (ENOENT)\n", 
+                        "api": "stat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c7c5c5", 
+                        "arguments": {
+                            "p0": "/usr/local/sbin/kitty", 
+                            "p1": "0x7fff77889dd0"
+                        }, 
+                        "time": 1634308506.568979
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.569053 sh@7f5663c7c5c5[2070] stat(\"/usr/local/bin/kitty\", 0x7fff77889dd0) = -2 (ENOENT)\n", 
+                        "api": "stat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c7c5c5", 
+                        "arguments": {
+                            "p0": "/usr/local/bin/kitty", 
+                            "p1": "0x7fff77889dd0"
+                        }, 
+                        "time": 1634308506.569053
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.569120 sh@7f5663c7c5c5[2070] stat(\"/usr/sbin/kitty\", 0x7fff77889dd0) = -2 (ENOENT)\n", 
+                        "api": "stat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c7c5c5", 
+                        "arguments": {
+                            "p0": "/usr/sbin/kitty", 
+                            "p1": "0x7fff77889dd0"
+                        }, 
+                        "time": 1634308506.56912
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.569408 sh@7f5663c7c5c5[2070] stat(\"/usr/bin/kitty\", 0x7fff77889dd0) = -2 (ENOENT)\n", 
+                        "api": "stat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c7c5c5", 
+                        "arguments": {
+                            "p0": "/usr/bin/kitty", 
+                            "p1": "0x7fff77889dd0"
+                        }, 
+                        "time": 1634308506.569408
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.569472 sh@7f5663c7c5c5[2070] stat(\"/sbin/kitty\", 0x7fff77889dd0) = -2 (ENOENT)\n", 
+                        "api": "stat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c7c5c5", 
+                        "arguments": {
+                            "p0": "/sbin/kitty", 
+                            "p1": "0x7fff77889dd0"
+                        }, 
+                        "time": 1634308506.569472
+                    }, 
+                    {
+                        "status": "ENOENT", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.569508 sh@7f5663c7c5c5[2070] stat(\"/bin/kitty\", 0x7fff77889dd0) = -2 (ENOENT)\n", 
+                        "api": "stat", 
+                        "return_value": "-2", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c7c5c5", 
+                        "arguments": {
+                            "p0": "/bin/kitty", 
+                            "p1": "0x7fff77889dd0"
+                        }, 
+                        "time": 1634308506.569508
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.569551 sh@7f5663c7d024[2070] write(2, \"/bin/sh: 1: \", 12) = 12\n", 
+                        "api": "write", 
+                        "return_value": "12", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c7d024", 
+                        "arguments": {
+                            "p2": "12", 
+                            "p0": "2", 
+                            "p1": "/bin/sh: 1: "
+                        }, 
+                        "time": 1634308506.569551
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.569587 sh@7f5663c7d024[2070] write(2, \"kitty: not found\", 16) = 16\n", 
+                        "api": "write", 
+                        "return_value": "16", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c7d024", 
+                        "arguments": {
+                            "p2": "16", 
+                            "p0": "2", 
+                            "p1": "kitty: not found"
+                        }, 
+                        "time": 1634308506.569587
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.569619 sh@7f5663c7d024[2070] write(2, \"\\n\", 1) = 1\n", 
+                        "api": "write", 
+                        "return_value": "1", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c7d024", 
+                        "arguments": {
+                            "p2": "1", 
+                            "p0": "2", 
+                            "p1": "\n"
+                        }, 
+                        "time": 1634308506.569619
+                    }, 
+                    {
+                        "status": "", 
+                        "process_name": "sh", 
+                        "pid": 2070, 
+                        "raw": "Fri Oct 15 14:35:06 2021.569651 sh@7f5663c51926[2070] exit_group(127)\n", 
+                        "api": "exit_group", 
+                        "return_value": "", 
+                        "category": "process", 
+                        "instruction_pointer": "7f5663c51926", 
+                        "arguments": {
+                            "p0": "127"
+                        }, 
+                        "time": 1634308506.569651
+                    }
+                ], 
+                "pid": 2070, 
+                "process_name": "BASYUK_Illia.bin", 
+                "command_line": "/tmp/BASYUK_Illia.bin", 
+                "first_seen": 1634308506.564718, 
+                "ppid": -1, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": true, 
+                "pid": 2070, 
+                "process_name": "BASYUK_Illia.bin", 
+                "command_line": "/tmp/BASYUK_Illia.bin", 
+                "first_seen": 1634308506.564718, 
+                "ppid": -1, 
+                "children": []
+            }
+        ]
+    }, 
+    "debug": {
+        "action": [], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2021-10-15 14:34:59,007 [root] DEBUG: Starting analyzer from: /tmp/tmpqX9pxe\n", 
+            "2021-10-15 14:34:59,008 [root] DEBUG: Storing results at: /tmp/bPcFrNuXp\n", 
+            "2021-10-15 14:35:00,898 [modules.auxiliary.filecollector] INFO: FileCollector started v0.08\n", 
+            "2021-10-15 14:35:00,900 [modules.auxiliary.human] INFO: Human started v0.02\n", 
+            "2021-10-15 14:35:01,413 [modules.auxiliary.screenshots] INFO: Screenshots started v0.03\n", 
+            "2021-10-15 14:35:06,562 [lib.core.packages] INFO: Process startup took 5.14 seconds\n", 
+            "2021-10-15 14:35:06,569 [root] INFO: Added new process to list with pid: 2060\n", 
+            "2021-10-15 14:35:12,583 [root] INFO: Process with pid 2060 has terminated\n", 
+            "2021-10-15 14:35:12,585 [root] INFO: Process list is empty, terminating analysis.\n", 
+            "2021-10-15 14:35:15,589 [lib.core.packages] INFO: Package requested stop\n", 
+            "2021-10-15 14:35:15,591 [lib.core.packages] WARNING: Exception uploading log: [Errno 3] No such process\n"
+        ], 
+        "cuckoo": [
+            "2021-10-15 14:35:02,450 [cuckoo.core.scheduler] INFO: Task #2431227: acquired machine Ubuntu1904x641 (label=Ubuntu1904x641)\n", 
+            "2021-10-15 14:35:02,451 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.168.101 for task #2431227\n", 
+            "2021-10-15 14:35:02,603 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 895347 (interface=vboxnet0, host=192.168.168.101)\n", 
+            "2021-10-15 14:35:02,723 [cuckoo.machinery.virtualbox] DEBUG: Starting vm Ubuntu1904x641\n", 
+            "2021-10-15 14:35:03,085 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine Ubuntu1904x641 to Snapshot\n", 
+            "2021-10-15 14:35:11,562 [cuckoo.core.guest] INFO: Starting analysis #2431227 on guest (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2021-10-15 14:35:12,566 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: not ready yet\n", 
+            "2021-10-15 14:35:17,585 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=Ubuntu1904x641, ip=192.168.168.101)\n", 
+            "2021-10-15 14:35:17,596 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=Ubuntu1904x641, ip=192.168.168.101, monitor=latest, size=72017)\n", 
+            "2021-10-15 14:35:17,730 [cuckoo.core.resultserver] DEBUG: Task #2431227: live log analysis.log initialized.\n", 
+            "2021-10-15 14:35:22,669 [cuckoo.core.resultserver] DEBUG: Task #2431227: File upload for 'shots/0001.jpg'\n", 
+            "2021-10-15 14:35:22,695 [cuckoo.core.resultserver] DEBUG: Task #2431227 uploaded file length: 171537\n", 
+            "2021-10-15 14:35:32,722 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2431227 still processing\n", 
+            "2021-10-15 14:35:34,330 [cuckoo.core.resultserver] DEBUG: Task #2431227: File upload for 'logs/all.stap'\n", 
+            "2021-10-15 14:35:34,336 [cuckoo.core.resultserver] DEBUG: Task #2431227 uploaded file length: 6086\n", 
+            "2021-10-15 14:35:47,782 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2431227 still processing\n", 
+            "2021-10-15 14:36:02,844 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2431227 still processing\n", 
+            "2021-10-15 14:36:17,926 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2431227 still processing\n", 
+            "2021-10-15 14:36:32,986 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2431227 still processing\n", 
+            "2021-10-15 14:36:48,045 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2431227 still processing\n", 
+            "2021-10-15 14:37:03,113 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2431227 still processing\n", 
+            "2021-10-15 14:37:18,186 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2431227 still processing\n", 
+            "2021-10-15 14:37:33,245 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2431227 still processing\n", 
+            "2021-10-15 14:37:48,330 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2431227 still processing\n", 
+            "2021-10-15 14:38:03,400 [cuckoo.core.guest] DEBUG: Ubuntu1904x641: analysis #2431227 still processing\n", 
+            "2021-10-15 14:38:18,461 [cuckoo.core.guest] INFO: Ubuntu1904x641: end of analysis reached!\n", 
+            "2021-10-15 14:38:18,473 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Redsocks\n", 
+            "2021-10-15 14:38:18,537 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2021-10-15 14:38:31,720 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label Ubuntu1904x641 to path /srv/cuckoo/cwd/storage/analyses/2431227/memory.dmp\n", 
+            "2021-10-15 14:38:31,722 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm Ubuntu1904x641\n", 
+            "2021-10-15 14:38:35,555 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.168.101 for task #2431227\n", 
+            "2021-10-15 14:38:35,556 [cuckoo.core.resultserver] DEBUG: Cancel <Context for LOG> for task 2431227\n", 
+            "2021-10-15 14:38:35,696 [cuckoo.core.scheduler] DEBUG: Released database task #2431227\n", 
+            "2021-10-15 14:38:35,778 [cuckoo.core.scheduler] INFO: Task #2431227: analysis procedure completed\n"
+        ]
+    }, 
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "7548fe5f4cea84c4f9524d095e76a443b145f9be589d32ee18d5db35e3a2657e", 
+                "dirname": ""
+            }
+        }
+    }
+}
